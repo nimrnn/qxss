@@ -1,6 +1,6 @@
 # qxss
 
-`qxss` (quick-xss) is a small, fast, concurrent reflected-XSS recon tool written in Go.
+`qxss` is a small, fast, concurrent reflected-XSS recon tool written in Go.
 
 It reads a list of URLs (from a file or stdin), then for every URL:
 
