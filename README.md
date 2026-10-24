@@ -77,3 +77,6 @@ output does not by itself prove that a payload executes.
       characters that survive filtering/encoding. For example, if only `<` and `>` are
       reflected, the LLM should craft a working payload that uses those characters only,
       somehow.
+- [ ] **Reflection context.** On top of identifying which parameters reflect their values
+      in response body, also determine where the reflection occurs - in between tags `<p></p>`
+      , HTML attributes `<a href=""></a>`, within JavaScript `<script></script>`
